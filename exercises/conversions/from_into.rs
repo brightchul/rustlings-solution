@@ -39,6 +39,28 @@ impl Default for Person {
 
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        // TODO: I want to know the correct way.
+        let result: Vec<&str> = s.split(',').collect();
+
+        if result.len() != 2 {
+            return Person::default();
+        }
+
+        let name = result[0];
+        let age = (result[1]).parse::<usize>();
+
+        if name.len() == 0 {
+            return Person::default();
+        }
+
+        if let Err(_err) = age {
+            return Person::default();
+        }
+
+        return Person {
+            name: name.to_string(),
+            age: age.unwrap(),
+        };
     }
 }
 
