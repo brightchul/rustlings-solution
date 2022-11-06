@@ -142,12 +142,12 @@ Alternatively, for a first-time Rust learner, there are several other resources:
 [[traits5](/exercises/traits/traits5.rs)] 
 
 ### variables
-[[variablesvariables1](/exercises/variablesvariables1.rs)] 
-[[variablesvariables2](/exercises/variablesvariables2.rs)] 
-[[variablesvariables3](/exercises/variablesvariables3.rs)] 
-[[variablesvariables4](/exercises/variablesvariables4.rs)] 
-[[variablesvariables5](/exercises/variablesvariables5.rs)] 
-[[variablesvariables6](/exercises/variablesvariables6.rs)] 
+[[variables1](/exercises/variables/variables1.rs)] 
+[[variables2](/exercises/variables/variables2.rs)] 
+[[variables3](/exercises/variables/variables3.rs)] 
+[[variables4](/exercises/variables/variables4.rs)] 
+[[variables5](/exercises/variables/variables5.rs)] 
+[[variables6](/exercises/variables/variables6.rs)] 
 
 ### vecs
 [[vecs1](/exercises/vecs/vecs1.rs)] 
